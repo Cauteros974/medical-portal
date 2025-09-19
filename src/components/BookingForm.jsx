@@ -38,6 +38,10 @@ const BookingForm = ({ doctorName }) => {
                     <Field name="name" type="text" className="form-input" />
                     <ErrorMessage name="name" component="div" className="form-error" /> 
                 </div>
+
+                <div {...getRootProps}>
+                    <input {...getInputProps}/>
+                </div>
             </Form>
         </Formik>
         </>
