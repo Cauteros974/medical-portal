@@ -41,11 +41,15 @@ const BookingForm = ({ doctorName }) => {
 
                 <div {...getRootProps}>
                     <input {...getInputProps}/>
+                    <p>Drag files here or click to select</p>
                 </div>
+                {files.length > 0 && <ul>{files}</ul>}
+                <br/>
+                <button type="submit">Make an appointment</button>
             </Form>
         </Formik>
         </>
-    )
+    );
 };
 
 export default BookingForm;
