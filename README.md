@@ -10,3 +10,13 @@ Currently, two official plugins are available:
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+| Library | Description |
+| --- | --- |
+| react-router-dom | A library for navigation in React applications. Allows you to switch pages without reloading |
+| styled-components | CSS-in-JS library for styling React components. You write styles directly inside JS/TS. |
+| formik | A library for working with forms in React. Managing form state (values, touched, errors). Simple validation and submission processing. Support for asynchronous checks. |
+| yup | Data validation library. Declarative validation schema. Checking types (string, number, boolean, etc.). Support for rule chains. |
+| react-dropzone | Library for drag & drop file upload. Supports drag-and-drop and input type="file". You can limit file types and quantity. |
+| axios | Library for HTTP requests (alternative fetch). Promise support. Interceptors (you can add tokens, error handling). Support for canceling requests. |
