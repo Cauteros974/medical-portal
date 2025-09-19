@@ -17,11 +17,11 @@ const BookingForm = ({ doctorName }) => {
                 date: Yup.string().required("Choose date"),
             })}
             onSubmit={(values) =>{
-                alert(JSON.stringify({...values, files, files.map(f => f.key)}, null, 2));
+                alert(JSON.stringify({...values, files: files.map(f => f.key)}, null, 2));
             }}
         >
             <Form>
-                
+
             </Form>
         </Formik>
         </>
