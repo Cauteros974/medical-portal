@@ -21,7 +21,23 @@ const BookingForm = ({ doctorName }) => {
             }}
         >
             <Form>
+                <div className="form-group">
+                    <label htmlFor="name">Your Name</label>
+                    <Field name="name" type="text" className="form-input" />
+                    <ErrorMessage name="name" component="div" className="form-error" /> 
+                </div>
 
+                <div className="form-group">
+                    <label htmlFor="name">Phone Number</label>
+                    <Field name="name" type="text" className="form-input" />
+                    <ErrorMessage name="name" component="div" className="form-error" /> 
+                </div>
+
+                <div className="form-group">
+                    <label htmlFor="name">Desired Date</label>
+                    <Field name="name" type="text" className="form-input" />
+                    <ErrorMessage name="name" component="div" className="form-error" /> 
+                </div>
             </Form>
         </Formik>
         </>
