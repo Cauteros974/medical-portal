@@ -1,6 +1,6 @@
 import { Formik, Form, Field, ErrorMessage } from "formik";
 
-const AuthForm = ({ onLogin }) => {
+const AuthForm = ({ onLogin }) => (
     <div className="form-wrapper">
         <h2>Login or Registration</h2>
         <Formik
@@ -28,4 +28,6 @@ const AuthForm = ({ onLogin }) => {
             </Form>
         </Formik>
     </div>
-}
+);
+
+export default AuthForm;
