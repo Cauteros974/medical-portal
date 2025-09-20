@@ -4,8 +4,6 @@ const AuthForm = ({ onLogin }) => {
     <div className="form-wrapper">
         <h2>Login or Registration</h2>
         <Formik
-        
-        >
             initialValues = {{ email: '', password: ''}}
             validationSchema={Yup.object({
                 email: Yup.string().email('Invalid email').required("Required field"),
@@ -14,6 +12,8 @@ const AuthForm = ({ onLogin }) => {
             onSubmit={() => {
                 onLogin({ email: 'user@example.com'});
             }}
+        >
+            
         </Formik>
     </div>
 }
