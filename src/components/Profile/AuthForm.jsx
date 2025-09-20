@@ -20,8 +20,11 @@ const AuthForm = ({ onLogin }) => {
                     <ErrorMessage name="email" component="div" className="form-error" />
                 </div>
                 <div className="form-group">
-                    
+                    <lavel htmlFor="password">Password</lavel>
+                    <Field name="password" type="password" className="form-input" />
+                    <ErrorMessage name="password" component="div" className="form-error" />
                 </div>
+                <button type="submit">LogIn</button>
             </Form>
         </Formik>
     </div>
