@@ -19,9 +19,12 @@ const DoctorDetailsPage = () => {
                     <h3>{doctor.specialty}</h3>
                     <p>{doctor.bio}</p>
                 </div>
+                <div className="booking-form">
+                    <BookingForm doctorName={doctor.name} />
+                </div>
             </div>
         </div>
-    )
+    );
 };
 
 export default DoctorDetailsPage;
