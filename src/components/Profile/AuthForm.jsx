@@ -6,9 +6,9 @@ const AuthForm = ({ onLogin }) => {
         <Formik>
             initialValues = {{ email: '', password: ''}}
             validationSchema={Yup.object({
-        email: Yup.string().email('Invalid email').required("Required field"),
-        password: Yup.string().min(6, 'Password is too short').required("Required field"),
-      })}
+                email: Yup.string().email('Invalid email').required("Required field"),
+                password: Yup.string().min(6, 'Password is too short').required("Required field"),
+            })}
         </Formik>
     </div>
 }
