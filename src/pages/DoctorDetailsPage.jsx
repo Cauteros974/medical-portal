@@ -5,4 +5,23 @@ import BookingForm from "../components/BookingForm";
 const DoctorDetailsPage = () => {
     const { id } = useParams();
     const doctor = doctor.find( d => d.id === parseInt(id));
-}
+
+    if(!doctor){
+        return <div className="page-container">Doctor not found</div>
+    }
+
+    return(
+        <div className="page-container">
+            <div className="details-container">
+                <div className="details-info">
+                    <img src={doctor.photo} alt={doctor.name} className="details-info-photo" />
+                    <h1>{doctor.name}</h1>
+                    <h3>{doctor.specialty}</h3>
+                    <p>{doctor.bio}</p>
+                </div>
+            </div>
+        </div>
+    )
+};
+
+export default DoctorDetailsPage;
