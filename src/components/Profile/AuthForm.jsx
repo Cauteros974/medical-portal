@@ -1,4 +1,5 @@
 import { Formik, Form, Field, ErrorMessage } from "formik";
+import * as Yup from "yup";
 
 const AuthForm = ({ onLogin }) => (
     <div className="form-wrapper">
@@ -20,7 +21,7 @@ const AuthForm = ({ onLogin }) => (
                     <ErrorMessage name="email" component="div" className="form-error" />
                 </div>
                 <div className="form-group">
-                    <lavel htmlFor="password">Password</lavel>
+                    <label htmlFor="password">Password</label>
                     <Field name="password" type="password" className="form-input" />
                     <ErrorMessage name="password" component="div" className="form-error" />
                 </div>
