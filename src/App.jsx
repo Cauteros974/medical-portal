@@ -1,27 +1,31 @@
-import { useState } from 'react'
-import AboutUs from './components/AboutUs';
-import BookingForm from './components/BookingForm';
-import DoctorCard from './components/DoctorCards';
-import Footer from './components/Footer';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
-import SearchForm from './components/SearchForm';
-import './App.css'
-import { Router, Routes } from 'react-router-dom';
+import Footer from './components/Footer';
+import HomePage from './pages/HomePage';
+import DoctorsPage from './pages/DoctorsPage';
+import DoctorDetailsPage from './pages/DoctorDetailsPage';
+import ProfilePage from './pages/ProfilePage';
+import AboutUs from './components/AboutUs';
+import './App.css';
 
 function App() {
-
   return (
     <Router>
       <div className="app-container">
         <Header />
+        <main className="main-content">
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/doctors" element={<DoctorsPage />} />
+            <Route path="/doctors/:id" element={<DoctorDetailsPage />} />
+            <Route path="/profile" element={<ProfilePage />} />
+            <Route path="/about" element={<AboutUs />} />
+          </Routes>
+        </main>
+        <Footer />
       </div>
-      <main className="main-container">
-        <Routes>
-          
-        </Routes>
-      </main>
     </Router>
-  )
+  );
 }
 
 export default App;
