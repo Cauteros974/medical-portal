@@ -1,42 +1,148 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+/* --- General structure --- */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.main-content { flex: 1; }
+
+/* --- Header --- */
+.header {
+  background-color: var(--surface-color);
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  flex-wrap: wrap;
+}
+.header-logo { font-size: 1.75rem; font-weight: bold; color: var(--primary-color); }
+.header-nav { display: flex; gap: 1.5rem; }
+.header-nav a {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--secondary-color);
+  padding-bottom: 5px;
+  border-bottom: 2px solid transparent;
+}
+.header-nav a.active { color: var(--primary-color); border-bottom: 2px solid var(--primary-color); }
+
+/* --- Footer --- */
+.footer {
+  background-color: #343a40;
+  color: white;
   text-align: center;
+  padding: 1.5rem;
+  margin-top: 2rem;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+/* --- HomePage --- */
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 4rem 1rem;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+.hero-title { font-size: 3rem; margin-bottom: 1rem; }
+.hero-subtitle { font-size: 1.25rem; color: var(--secondary-color); margin-bottom: 2rem; max-width: 600px; }
+
+/* --- Pages & Forms --- */
+.page-container { max-width: 1200px; margin: 2rem auto; padding: 0 1rem; }
+.search-form { margin-bottom: 2rem; text-align: center; }
+.search-input {
+  width: 50%;
+  max-width: 500px;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border-radius: var(--border-radius);
+  border: 1px solid var(--border-color);
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.doctors-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 2rem;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* --- DoctorCard --- */
+.doctor-card {
+  background: var(--surface-color);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  padding: 1.5rem;
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.doctor-card:hover { transform: translateY(-5px); box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12); }
+.doctor-card-photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  border: 4px solid var(--primary-color);
+}
+.doctor-card h3 { margin-bottom: 0.5rem; font-size: 1.25rem; }
+.doctor-card p { color: var(--secondary-color); margin-bottom: 1rem; }
+
+/* --- DoctorDetails & BookingForm --- */
+.details-container {
+  display: flex;
+  gap: 3rem;
+  background: var(--surface-color);
+  padding: 2rem;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+}
+.details-info { flex: 1; }
+.details-info-photo { width: 200px; height: 200px; object-fit: cover; border-radius: var(--border-radius); margin-bottom: 1.5rem; }
+.booking-form { flex: 1; }
+
+/* --- Universal styles for forms --- */
+.form-wrapper {
+  background: var(--surface-color);
+  padding: 2rem;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  max-width: 500px;
+  margin: 2rem auto;
+}
+.form-group { margin-bottom: 1.5rem; }
+.form-group label { display: block; margin-bottom: 0.5rem; font-weight: 500; }
+.form-input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  font-size: 1rem;
+}
+.form-error { color: #dc3545; font-size: 0.875rem; margin-top: 0.25rem; }
+.dropzone {
+  border: 2px dashed var(--border-color);
+  border-radius: var(--border-radius);
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+.dropzone:hover { border-color: var(--primary-color); }
+
+/* --- Dashboard --- */
+.dashboard h2, .dashboard h3 { margin-bottom: 1rem; }
+.appointment-card {
+  background: var(--surface-color);
+  padding: 1.5rem;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  margin-bottom: 1rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+/* --- Adaptability --- */
+@media (max-width: 768px) {
+  .header { flex-direction: column; gap: 1rem; padding: 1rem; }
+  .header-nav { flex-direction: column; text-align: center; gap: 0.5rem; }
+  .hero-title { font-size: 2.25rem; }
+  .search-input { width: 90%; }
+  .details-container { flex-direction: column; padding: 1rem; }
 }
