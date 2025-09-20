@@ -13,7 +13,16 @@ const AuthForm = ({ onLogin }) => {
                 onLogin({ email: 'user@example.com'});
             }}
         >
-            
+            <Form>
+                <div className="form-group">
+                    <label htmlFor="email">Email</label>
+                    <Field name="email" type="email" className="form-input" />
+                    <ErrorMessage name="email" component="div" className="form-error" />
+                </div>
+                <div className="form-group">
+                    
+                </div>
+            </Form>
         </Formik>
     </div>
 }
