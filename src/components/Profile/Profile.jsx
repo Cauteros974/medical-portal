@@ -33,8 +33,13 @@ const Profile = ({ user, onLogOut, onPhotoUpload }) => {
                     <button onClick={onLogOut} style={ { marginTop: '1rem '}}>LogOut</button>
                 </div>
             </div>
+
+            <div {...getRootProps({ className: 'dropzone profile-dropzone' })}>
+                <input {...getInputProps()} />
+                <p>Click or drag a photo here to update your avatar</p>
+            </div>
         </div>
-    )
+    );
 };
 
 export default Profile;
