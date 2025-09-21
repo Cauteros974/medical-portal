@@ -37,6 +37,15 @@ const HomePage = () => {
                         <h4>Found a doctor</h4>
                         <p>Use search by specialty or name</p>
                     </div>
+                    <div className="step">
+                        <div className="step-number">2</div>
+                        <h4>Choose a time</h4>
+                        <p>View available hours in the doctor's schedule.</p>
+                    </div>
+                    <div className="step">
+                        <div className="step-number">3</div>
+                        <h4></h4>
+                    </div>
                 </div>
             </section>
         </>
