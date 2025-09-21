@@ -21,4 +21,9 @@ If you are developing a production application, we recommend using TypeScript wi
 | react-dropzone | Library for drag & drop file upload. Supports drag-and-drop and input type="file". You can limit file types and quantity. |
 | axios | Library for HTTP requests (alternative fetch). Promise support. Interceptors (you can add tokens, error handling). Support for canceling requests. |
 
-![alt text](https://github.com/Cauteros974/medical-portal/blob/main/public/images/screen1.png)
+![alt text]([https://github.com/Cauteros974/trading-app/blob/main/src/assets/photo1.png](https://github.com/Cauteros974/medical-portal/blob/main/public/images/screen6.png))
+![alt text]([https://github.com/Cauteros974/trading-app/blob/main/src/assets/photo1.png](https://github.com/Cauteros974/medical-portal/blob/main/public/images/screen5.png))
+![alt text]([https://github.com/Cauteros974/trading-app/blob/main/src/assets/photo1.png](https://github.com/Cauteros974/medical-portal/blob/main/public/images/screen2.png))
+![alt text]([https://github.com/Cauteros974/trading-app/blob/main/src/assets/photo1.png](https://github.com/Cauteros974/medical-portal/blob/main/public/images/screen1.png))
+![alt text]([https://github.com/Cauteros974/trading-app/blob/main/src/assets/photo1.png](https://github.com/Cauteros974/medical-portal/blob/main/public/images/screen3.png))
+![alt text]([https://github.com/Cauteros974/trading-app/blob/main/src/assets/photo1.png](https://github.com/Cauteros974/medical-portal/blob/main/public/images/screen4.png))
