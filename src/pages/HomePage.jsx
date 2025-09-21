@@ -1,10 +1,12 @@
 import { Link } from 'react-router-dom';
 import DoctorsPage from '../pages/DoctorsPage';
 import { doctors } from '../data/doctors';
+import DoctorCard from '../components/DoctorCard';
 
 const HomePage = () => {
 
-    const feuturedDoctors = doctors.includes(0, 3);
+    const featuredDoctors = doctors.slice(0, 3);
+    
 
     return(
         <>
@@ -46,6 +48,15 @@ const HomePage = () => {
                         <div className="step-number">3</div>
                         <h4>Confirm the entry and receive a reminder.</h4>
                     </div>
+                </div>
+            </section>
+
+            <section className="page-container">
+                <h2 className="section-title">Our leading specialists</h2>
+                <div className="doctors-grid">
+                {featuredDoctors.map(doctor => (
+                    <DoctorCard key={doctor.id} doctor={doctor} />
+                    ))}
                 </div>
             </section>
         </>
