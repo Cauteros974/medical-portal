@@ -21,7 +21,7 @@ const HomePage = () => {
                 </div>
                 <div className="feature-card">
                     <h3>📅 Easy recording</h3>
-                    
+                    <p>Choose a convenient time and make an appointment online 24/7.</p>
                 </div>
             </section>
         </>
