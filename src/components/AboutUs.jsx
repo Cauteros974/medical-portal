@@ -8,6 +8,7 @@ const AboutUs = () => (
                 We believe that technology can help patients and doctors find each other faster and more efficiently.
             </p>
         </div>
+        
     </div>
 );
 
