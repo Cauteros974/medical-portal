@@ -1,7 +1,8 @@
+import React from "react";
 import Profile from "../components/Profile/Profile";
 import { userAppointments } from "../data/userAppointments";
 
-const DashboardPage = ({ user, onLogout }) => (
+const DashboardPage = ({ user, onLogout }) => {
     <div className="page-container dashboard">
       <Profile user={user} onLogout={onLogout} />
       
@@ -15,6 +16,6 @@ const DashboardPage = ({ user, onLogout }) => (
         ))}
       </div>
     </div>
-  );
+};
 
 export default DashboardPage;
