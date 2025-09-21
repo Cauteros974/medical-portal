@@ -54,7 +54,7 @@ const HomePage = () => {
             <section className="page-container">
                 <h2 className="section-title">Our leading specialists</h2>
                 <div className="doctors-grid">
-                {featuredDoctors.map(doctor => (
+                    {featuredDoctors.map(doctor => (
                     <DoctorCard key={doctor.id} doctor={doctor} />
                     ))}
                 </div>
