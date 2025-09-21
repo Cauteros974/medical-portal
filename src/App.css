@@ -65,6 +65,8 @@
   gap: 2rem;
 }
 
+
+
 /* --- DoctorCard --- */
 .doctor-card {
   background: var(--surface-color);
@@ -145,4 +147,110 @@
   .hero-title { font-size: 2.25rem; }
   .search-input { width: 90%; }
   .details-container { flex-direction: column; padding: 1rem; }
+}
+
+/* --- New sections for the Home page --- */
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+
+/* "Benefits" section */
+.features-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.feature-card {
+  background: var(--surface-color);
+  padding: 2rem;
+  text-align: center;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+}
+
+.feature-card h3 {
+  margin-bottom: 1rem;
+}
+
+/* "How it works" section */
+.how-it-works-section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.steps-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+  text-align: center;
+}
+
+.step .step-number {
+  width: 50px;
+  height: 50px;
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0 auto 1rem;
+}
+
+.step h4 {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+/* "Feedback" section */
+.testimonials-section {
+  background-color: var(--secondary-color);
+  padding: 4rem 0;
+  margin-top: 3rem;
+}
+
+.testimonials-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.testimonial-card {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 2rem;
+  border-radius: var(--border-radius);
+}
+
+.testimonial-card p {
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.testimonial-card h4 {
+  text-align: right;
+  color: var(--primary-color);
+}
+
+/* Adaptability for new blocks */
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 1.75rem;
+  }
+
+  .features-section,
+  .testimonials-container {
+    grid-template-columns: 1fr;
+  }
+
+  .steps-container {
+    flex-direction: column;
+  }
 }

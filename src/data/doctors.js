@@ -2,5 +2,9 @@ export const doctors = [
     { id: 1, name: "Dr. Emily Rhodes", specialty: "Cardiologist", bio: "Emily is an experienced cardiologist with 15 years of experience. She specializes in the treatment of coronary heart disease and arrhythmia.", photo: "/public/images/photo3.jpg"},
     { id: 2, name: "Dr. Lorenzo Ferraro", specialty: "Neurologist", bio: "Lorenzo helps patients with headaches, sleep disorders, and other neurological diseases. Experience — 12 years.", photo: "/public/images/photo2.jpg"},
     { id: 3, name: "Dr. Giulia Moretti", specialty: "Pediatrician", bio: "Giulia is a caring pediatrician who easily finds a common language with children. Work experience — 10 years.", photo: "/public/images/photo4.jpg"},
-    { id: 4, name: "Dr. Marco Bellini", specialty: "Dermatologist", bio: "Specialist in the diagnosis and treatment of skin diseases. Uses modern techniques.", photo: "/public/images/photo1.jpg"}
+    { id: 4, name: "Dr. Marco Bellini", specialty: "Dermatologist", bio: "Specialist in the diagnosis and treatment of skin diseases. Uses modern techniques.", photo: "/public/images/photo1.jpg"},
+    { id: 5, name: "Dr. Emily Carter", specialty: "Therapist", bio: "Emily Carter is an experienced therapist with 6 years of experience. He specializes in the treatment of chronic diseases and the prevention of internal diseases.", photo: "/public/images/photo6.png"},
+    { id: 6, name: "Dr. Jonathan Blake", specialty: "Surgeon", bio: "Jonathan Blake is a surgeon with more than 20 years of experience. Performs complex abdominal and trauma operations, specializes in emergency surgery.", photo: "/public/images/photo7.png"},
+    { id: 7, name: "Dr. Sofia Moretti", specialty: "Ophthalmologist", bio: "Claire Dubois is an ophthalmologist with 10 years of experience. Performs laser operations, deals with glaucoma treatment and vision correction.", photo: "/public/images/photo8.png"},
+    { id: 8, name: "Dr. Miguel Alvarez", specialty: "Dentist", bio: "Miguel is a dentist with 9 years of experience. Specializes in prosthetics, aesthetic dentistry and treatment of oral diseases.", photo: "/public/images/photo5.png"}
 ];
