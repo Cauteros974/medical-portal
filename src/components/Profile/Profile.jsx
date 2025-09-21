@@ -15,12 +15,26 @@ const Avatar = ({ photo }) => {
     );
 };
 
-const Profile = ({ user, onLogOut }) => (
-    <div className="profile-welcome">
-        <h2>Welcome, {user.email}</h2>
-        <p>Here you can view your upcoming appointments.</p>
-        <button onClick={onLogOut} style={{ marginTop: '1rem'}}>LogOut</button>
-    </div>
-);
+const Profile = ({ user, onLogOut, onPhotoUpload }) => {
+    const { getRootProps, getInputProps } =useDropzone({
+        accept: { 'image/*': ['.jpeg', '.png', '.jpg'] },
+        onDrop: (acceptedFiles) => {
+            onPhotoUpload(acceptedFiles[0]);
+        },
+    });
+
+    return(
+        <div className="profile-container">
+            <div className="profile-header">
+                <Avatar photo={user.photo} />
+                <div className="profile-info">
+                    <h2>Welcome, {user.email}</h2>
+                    <p>Here you can view your upcoming appointments.</p>
+                    <button onClick={onLogOut} style={ { marginTop: '1rem '}}>LogOut</button>
+                </div>
+            </div>
+        </div>
+    )
+};
 
 export default Profile;
