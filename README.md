@@ -26,4 +26,4 @@ If you are developing a production application, we recommend using TypeScript wi
 ![alt text](https://github.com/Cauteros974/medical-portal/blob/main/public/images/screen2.png)
 ![alt text](https://github.com/Cauteros974/medical-portal/blob/main/public/images/screen1.png)
 ![alt text](https://github.com/Cauteros974/medical-portal/blob/main/public/images/screen3.png)
-![alt text](https://github.com/Cauteros974/medical-portal/blob/main/public/images/screen4.png)
+![alt text](https://github.com/Cauteros974/medical-portal/blob/main/public/images/screen7.png)
