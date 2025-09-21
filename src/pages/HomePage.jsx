@@ -71,7 +71,7 @@ const HomePage = () => {
                             <p>"Very convenient service! I found a great neurologist and made an appointment in 5 minutes, without leaving home. I recommend it!"</p>
                             <h4>- Marry D.</h4>
                         </div>
-                        <div className="testimonail-card">
+                        <div className="testimonial-card">
                             <p>Finally, there is no need to call the reception. Everything is transparent, you can see the schedule, reviews. This is the future of medicine</p>
                             <h4>- David L.</h4>
                         </div>
