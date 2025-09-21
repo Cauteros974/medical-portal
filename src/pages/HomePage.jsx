@@ -44,7 +44,7 @@ const HomePage = () => {
                     </div>
                     <div className="step">
                         <div className="step-number">3</div>
-                        <h4></h4>
+                        <h4>Confirm the entry and receive a reminder.</h4>
                     </div>
                 </div>
             </section>
