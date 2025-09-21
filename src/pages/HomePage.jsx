@@ -28,6 +28,17 @@ const HomePage = () => {
                     <p>Read real patient reviews to make the right choice.</p>
                 </div>
             </section>
+
+            <section className="page-container how-it-works-section">
+                <h2 className="section-title">Signing up is easy!</h2>
+                <div className="steps-container">
+                    <div className="step">
+                        <div className="step-number">1</div>
+                        <h4>Found a doctor</h4>
+                        <p>Use search by specialty or name</p>
+                    </div>
+                </div>
+            </section>
         </>
     );
     
