@@ -58,10 +58,28 @@ const HomePage = () => {
                     <DoctorCard key={doctor.id} doctor={doctor} />
                     ))}
                 </div>
+                <div style={ { textAlign: 'center', marginTop: '2rem'}}>
+                    <Link to="/doctors" className="button">View all doctors</Link>
+                </div>
+            </section>
+
+            <section className="testimonials-section">
+                <div className="page-container">
+                    <h2 className="section-title" style={{color: 'white'}}>What our patients say</h2>
+                    <div className="testimonials-container">
+                        <div className="testimonial-card">
+                            <p>"Very convenient service! I found a great neurologist and made an appointment in 5 minutes, without leaving home. I recommend it!"</p>
+                            <h4>- Marry D.</h4>
+                        </div>
+                        <div className="testimonail-card">
+                            <p>Finally, there is no need to call the reception. Everything is transparent, you can see the schedule, reviews. This is the future of medicine</p>
+                            <h4>- David L.</h4>
+                        </div>
+                    </div>
+                </div>
             </section>
         </>
-    );
-    
+    );  
 };
 
 export default HomePage;
