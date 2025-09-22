@@ -4,7 +4,7 @@ import BookingForm from "../components/BookingForm";
 
 const DoctorDetailsPage = () => {
     const { id } = useParams();
-    const doctor = doctor.find( d => d.id === parseInt(id));
+    const doctor = doctors.find( d => d.id === parseInt(id));
 
     if(!doctor){
         return <div className="page-container">Doctor not found</div>
