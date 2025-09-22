@@ -254,7 +254,7 @@
   }
 }
 
-/* --- Стилі для оновленого профілю --- */
+/* --- Styles for the updated profile --- */
 .profile-container {
   background: var(--surface-color);
   padding: 2rem;
@@ -299,3 +299,4 @@
   border: 2px dashed var(--primary-color);
   background-color: #f8f9fa;
 }
+
