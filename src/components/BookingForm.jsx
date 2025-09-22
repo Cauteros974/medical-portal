@@ -29,13 +29,13 @@ const BookingForm = ({ doctorName }) => {
 
                 <div className="form-group">
                     <label htmlFor="name">Phone Number</label>
-                    <Field name="name" type="text" className="form-input" />
+                    <Field name="phone" type="number" className="form-input" />
                     <ErrorMessage name="name" component="div" className="form-error" /> 
                 </div>
 
                 <div className="form-group">
                     <label htmlFor="name">Desired Date</label>
-                    <Field name="name" type="text" className="form-input" />
+                    <Field name="date" type="calendar" className="form-input" />
                     <ErrorMessage name="name" component="div" className="form-error" /> 
                 </div>
 
