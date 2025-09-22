@@ -87,6 +87,21 @@ const HomePage = () => {
                 </div>
             </section>
 
+            <section className="page-container articles-section">
+                <h2 className="section-title">Useful articles about health</h2>
+                <div className="articles-grid">
+                    <div className= "acticle-card">
+                        <img src="/images/images.jpeg" alt="Healthy heart" />
+                        <div className="article-content">
+                            <h4>Cardiology</h4>
+                            <h3>How save healthy heart: 5 easily advice</h3>
+                            <p>Learn how quality sleep affects your brain, mood, and overall well-being...</p>
+                            <a href="#">Read more...</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             <section className="testimonials-section">
                 <div className="page-container">
                     <h2 className="section-title" style={{color: 'white'}}>What our patients say</h2>
