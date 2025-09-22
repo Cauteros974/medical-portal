@@ -1,7 +1,23 @@
-import { Link } from 'react-router-dom';
+import { useState } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
 import DoctorsPage from '../pages/DoctorsPage';
 import { doctors } from '../data/doctors';
 import DoctorCard from '../components/DoctorCard';
+
+const FeqItem = ({ question, answer }) =>{
+    const [isOpen, setIsOpen] = useState(false);
+
+    return(
+        <div className="faq-item">
+            <button className="faq-section" onClick={() => setIsOpen(!isOpen)}>
+                <span>{question}</span>
+                <span>{isOpen ? '-' : '+'}</span>
+            </button>
+            {isOpen && <div className="faq-answer"><p>{answer}</p></div>}
+        </div>
+    )
+};
+
 
 const HomePage = () => {
 
