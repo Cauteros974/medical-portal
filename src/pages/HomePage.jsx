@@ -40,19 +40,6 @@ const HomePage = () => {
                 <h2 className="section-title">Making an appointment is easy.</h2>
             </section>
 
-            <section className="page-container symptoms-section">
-                <h2 className="section-title">Don't know which doctor to contact?</h2>
-                <p className="hero-subtitle">Choose a symptom and we will recommend a specialist</p>
-                <div className="symptom-tags">
-                    <button onClick={() => handleSymptomSearch('Cardiologist')}>Cardiologist</button>
-                    <button onClick={() => handleSymptomSearch('Neurologist')}>Headache</button>
-                    <button onClick={() => handleSymptomSearch('Pediatrician')}>Childhood illnesses</button>
-                    <button onClick={() => handleSymptomSearch('Dermatologist')}>Skin problems</button>
-                    <button onClick={() => handleSymptomSearch('Therapist')}>Mental health</button>
-                    
-                </div>
-            </section>
-
             <section className="page-container features-section">
                 <div className="feature-card">
                     <h3>✅ Verified doctors</h3>
