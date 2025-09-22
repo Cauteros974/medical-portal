@@ -39,14 +39,9 @@ const BookingForm = ({ doctorName }) => {
                     <ErrorMessage name="name" component="div" className="form-error" /> 
                 </div>
 
-                <div {...getRootProps}>
-                    <input {...getInputProps}/>
-                    <p>Drag files here or click to select</p>
-                    {
-        isDragActive ?
-          <p>Drop the files here ...</p> :
-          <p>Drag 'n' drop some files here, or click to select files</p>
-      }
+                <div {...getRootProps()}>
+                    <input {...getInputProps()} />
+                    <p>Click here to select files</p>
                 </div>
                 
                 {files.length > 0 && <ul>{files}</ul>}
