@@ -43,6 +43,9 @@ const HomePage = () => {
             <section className="page-container symptoms-section">
                 <h2 className="section-title">Don't know which doctor to contact?</h2>
                 <p className="hero-subtitle">Choose a symptom and we will recommend a specialist</p>
+                <div className="symptom-tags">
+                    <buton onClick = {() => handleSymptomSearch('Cardiologist')}>Chest pain</buton>
+                </div>
             </section>
 
             <section className="page-container features-section">
