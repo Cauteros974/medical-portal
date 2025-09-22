@@ -22,6 +22,11 @@ const FaqItem = ({ question, answer }) => {
 const HomePage = () => {
 
     const featuredDoctors = doctors.slice(0, 3);
+    const navigate = useNavigate();
+
+    const handleSymptomSearch = (speciality) => {
+        navigate(`/doctors?search=${speciality}`);
+    };
     
 
     return(
