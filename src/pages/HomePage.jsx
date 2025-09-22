@@ -91,7 +91,7 @@ const HomePage = () => {
                 <h2 className="section-title">Useful articles about health</h2>
                 <div className="articles-grid">
                     <div className= "acticle-card">
-                        <img src="/images/images.jpeg" alt="Healthy heart" />
+                        <img src="/images/image.webp" alt="Healthy heart" />
                         <div className="article-content">
                             <h4>Cardiology</h4>
                             <h3>How save healthy heart: 5 easily advice</h3>
@@ -99,6 +99,16 @@ const HomePage = () => {
                             <a href="#">Read more...</a>
                         </div>
                     </div>
+                </div>
+
+                <div className="article-card">
+                  <img src="/images/image-planet.jpeg" alt="Good sleep" />
+                  <div className="article-content">
+                      <h4>Neurologist</h4>
+                      <h3>Sleep and health: why it's important to get enough sleep</h3>
+                      <p>Learn how quality sleep affects your brain, mood, and overall well-being...</p>
+                      <a href="#">Read more...</a>
+                  </div>
                 </div>
             </section>
 
