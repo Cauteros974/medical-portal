@@ -7,6 +7,11 @@ const AboutUs = () => (
                 Our mission is to make quality medical care more accessible to everyone. 
                 We believe that technology can help patients and doctors find each other faster and more efficiently.
             </p>
+            
+            <h1 style={{ textAlign: 'center', marginBottom: '1rem' }}></h1>
+            <p>
+                Our clinic has modern equipment and our qualified doctors will help you.
+            </p>
         </div>
         
     </div>
