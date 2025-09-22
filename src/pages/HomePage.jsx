@@ -20,7 +20,6 @@ const FaqItem = ({ question, answer }) => {
 
 
 const HomePage = () => {
-
     const featuredDoctors = doctors.slice(0, 3);
     const navigate = useNavigate();
 
@@ -35,6 +34,10 @@ const HomePage = () => {
             <h1 className="hero-title">Health is your top priority</h1>
             <p className="hero-subtitle">Quick and convenient appointment with the best specialists.</p>
             <Link to="/doctors" className="button">Search for doctors</Link>
+            </section>
+
+            <section className="page-container how-it-works-container">
+                <h2 className="section-title">Making an appointment is easy.</h2>
             </section>
 
             <section className="page-container features-section">
