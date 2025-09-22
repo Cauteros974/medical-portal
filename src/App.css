@@ -432,3 +432,11 @@
   color: var(--secondary-color);
   line-height: 1.7;
 }
+
+
+/* --- Adaptability for new blocks --- */
+@media (max-width: 768px) {
+  .articles-grid {
+    grid-template-columns: 1fr;
+  }
+}
