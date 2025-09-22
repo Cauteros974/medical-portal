@@ -44,7 +44,12 @@ const HomePage = () => {
                 <h2 className="section-title">Don't know which doctor to contact?</h2>
                 <p className="hero-subtitle">Choose a symptom and we will recommend a specialist</p>
                 <div className="symptom-tags">
-                    <buton onClick = {() => handleSymptomSearch('Cardiologist')}>Chest pain</buton>
+                    <button onClick={() => handleSymptomSearch('Cardiologist')}>Cardiologist</button>
+                    <button onClick={() => handleSymptomSearch('Neurologist')}>Headache</button>
+                    <button onClick={() => handleSymptomSearch('Pediatrician')}>Childhood illnesses</button>
+                    <button onClick={() => handleSymptomSearch('Dermatologist')}>Skin problems</button>
+                    <button onClick={() => handleSymptomSearch('Therapist')}>Mental health</button>
+                    
                 </div>
             </section>
 
