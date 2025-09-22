@@ -4,18 +4,18 @@ import DoctorsPage from '../pages/DoctorsPage';
 import { doctors } from '../data/doctors';
 import DoctorCard from '../components/DoctorCard';
 
-const FeqItem = ({ question, answer }) =>{
-    const [isOpen, setIsOpen] = useState(false);
+const FaqItem = ({ question, answer }) => {
+  const [isOpen, setIsOpen] = useState(false);
 
-    return(
-        <div className="faq-item">
-            <button className="faq-section" onClick={() => setIsOpen(!isOpen)}>
-                <span>{question}</span>
-                <span>{isOpen ? '-' : '+'}</span>
-            </button>
-            {isOpen && <div className="faq-answer"><p>{answer}</p></div>}
-        </div>
-    )
+  return (
+    <div className="faq-item">
+      <button className="faq-question" onClick={() => setIsOpen(!isOpen)}>
+        <span>{question}</span>
+        <span>{isOpen ? '−' : '+'}</span>
+      </button>
+      {isOpen && <div className="faq-answer"><p>{answer}</p></div>}
+    </div>
+  );
 };
 
 
