@@ -300,43 +300,6 @@
   background-color: #f8f9fa;
 }
 
-/* --- "Search by symptoms" section --- */
-.symptoms-section {
-  text-align: center;
-  padding: 3rem 1rem;
-  background-color: var(--surface-color);
-  border-radius: var(--border-radius);
-  margin-top: 3rem;
-}
-
-.section-subtitle {
-  color: var(--secondary-color);
-  margin-bottom: 2rem;
-  max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.symptoms-tags {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1rem;
-}
-
-.symptoms-tags button {
-  background-color: #e9ecef;
-  color: var(--text-color);
-  border: 1px solid var(--border-color);
-  font-weight: 500;
-}
-
-.symptoms-tags button:hover {
-  background-color: var(--primary-color);
-  color: white;
-  border-color: var(--primary-color);
-}
-
 /* --- "Useful articles" section --- */
 .articles-section {
   padding-top: 3rem;
