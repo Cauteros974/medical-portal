@@ -99,9 +99,8 @@ const HomePage = () => {
                             <a href="#">Read more...</a>
                         </div>
                     </div>
-                </div>
 
-                <div className="article-card">
+                    <div className="article-card">
                   <img src="/images/image-planet.jpeg" alt="Good sleep" />
                   <div className="article-content">
                       <h4>Neurologist</h4>
@@ -120,6 +119,9 @@ const HomePage = () => {
                       <a href="#">Read more...</a>
                   </div>
               </div>
+                </div>
+
+                
             </section>
 
             <section className="testimonials-section">
