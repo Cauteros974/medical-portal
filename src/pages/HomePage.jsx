@@ -88,41 +88,29 @@ const HomePage = () => {
             </section>
 
             <section className="page-container articles-section">
-                <h2 className="section-title">Useful articles about health</h2>
-                <div className="articles-grid">
-                    <div className= "acticle-card">
-                        <img src="/images/image.webp" alt="Healthy heart" />
-                        <div className="article-content">
-                            <h4>Cardiology</h4>
-                            <h3>How save healthy heart: 5 easily advice</h3>
-                            <p>Learn how quality sleep affects your brain, mood, and overall well-being...</p>
-                            <a href="#">Read more...</a>
-                        </div>
-                    </div>
-
-                    <div className="article-card">
-                  <img src="/images/image-planet.jpeg" alt="Good sleep" />
+          <h2 className="section-title">Useful articles about health</h2>
+          <div className="articles-grid">
+              <div className="article-card">
+                  <img src="/images/page-photo1.webp" alt="Healthy heart" />
                   <div className="article-content">
-                      <h4>Neurologist</h4>
+                      <h4>Cardiology</h4>
+                      <h3>How to keep your heart healthy: 5 simple tips</h3>
+                      <p>Simple daily habits that will help reduce the risk of cardiovascular disease...</p>
+                      <a href="#">Read more...</a>
+                  </div>
+              </div>
+              <div className="article-card">
+                  <img src="/images/page-photo2.jpeg" alt="Good sleep" />
+                  <div className="article-content">
+                      <h4>Neurology</h4>
                       <h3>Sleep and health: why it's important to get enough sleep</h3>
                       <p>Learn how quality sleep affects your brain, mood, and overall well-being...</p>
                       <a href="#">Read more...</a>
                   </div>
-                </div>
-
-                <div className="article-card">
-                  <img src="/images/images-child.jpeg" alt="Child health" />
-                  <div className="article-content">
-                      <h4>Pediatrics</h4>
-                      <h3>Seasonal allergies in children: what parents need to know</h3>
-                      <p>How to recognize allergy symptoms and help your child feel better...</p>
-                      <a href="#">Read more...</a>
-                  </div>
               </div>
-                </div>
-
-                
-            </section>
+              
+          </div>
+          </section>
 
             <section className="testimonials-section">
                 <div className="page-container">
