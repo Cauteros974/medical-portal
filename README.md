@@ -27,3 +27,13 @@ If you are developing a production application, we recommend using TypeScript wi
 ![alt text](https://github.com/Cauteros974/medical-portal/blob/main/public/images/screen1.png)
 ![alt text](https://github.com/Cauteros974/medical-portal/blob/main/public/images/screen3.png)
 ![alt text](https://github.com/Cauteros974/medical-portal/blob/main/public/images/screen7.png)
+
+
+| Library | Description |
+| --- | --- |
+| react-router-dom | ![alt text](https://github.com/Cauteros974/medical-portal/blob/main/public/images/screen7.png) |
+| styled-components | CSS-in-JS library for styling React components. You write styles directly inside JS/TS. |
+| formik | A library for working with forms in React. Managing form state (values, touched, errors). Simple validation and submission processing. Support for asynchronous checks. |
+| yup | Data validation library. Declarative validation schema. Checking types (string, number, boolean, etc.). Support for rule chains. |
+| react-dropzone | Library for drag & drop file upload. Supports drag-and-drop and input type="file". You can limit file types and quantity. |
+| axios | Library for HTTP requests (alternative fetch). Promise support. Interceptors (you can add tokens, error handling). Support for canceling requests. |
