@@ -114,7 +114,7 @@ const HomePage = () => {
                       <h4>Pediatrics</h4>
                       <h3>Seasonal allergies in children: what parents need to know</h3>
                       <p>How to recognize allergy symptoms and help your child feel better...</p>
-                      <a href="#">Read more...</a>
+                      <Link to="/doctors" className="button">View all doctors</Link>
                   </div>
                 </div>
           </div>
