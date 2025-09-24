@@ -17,6 +17,7 @@ const DoctorDetailsPage = () => {
                     <img src={doctor.photo} alt={doctor.name} className="details-info-photo" />
                     <h1>{doctor.name}</h1>
                     <h3>{doctor.specialty}</h3>
+                    <p>{doctor.experience}</p>
                     <p>{doctor.bio}</p>
                 </div>
                 <div className="booking-form">
