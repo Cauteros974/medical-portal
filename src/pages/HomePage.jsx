@@ -50,7 +50,7 @@ const HomePage = () => {
                     <p>Choose a convenient time and make an appointment online 24/7.</p>
                 </div>
                 <div className="feature-card">
-                    <h3>💬 Honest rewiews</h3>
+                    <h3>💬 Honest reviews</h3>
                     <p>Read real patient reviews to make the right choice.</p>
                 </div>
             </section>
