@@ -8,6 +8,7 @@ import ProfilePage from './pages/ProfilePage';
 import AboutUs from './components/AboutUs';
 import Cardiology from './components/Cardiology';
 import Neurology from './components/Neurology';
+import Pediatrics from './components/Pediatrics';
 import './App.css';
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
             <Route path="/about" element={<AboutUs />} />
             <Route path="/cardiology" element={<Cardiology />} />
             <Route path="/neurology" element={<Neurology />} />
+            <Route path="/pediatrics" element={<Pediatrics />} />
           </Routes>
         </main>
         <Footer />

@@ -414,6 +414,15 @@
   margin: 2rem auto;
 }
 
+.pediatrics-health{
+  background: var(--surface-color);
+  padding: 2rem;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  max-width: 900px;
+  margin: 2rem auto;
+}
+
 
 /* --- Adaptability for new blocks --- */
 @media (max-width: 768px) {
