@@ -119,6 +119,18 @@ const HomePage = () => {
                 </div>
           </div>
           </section>
+          
+          <section className="page-container faq-section">
+            <div className="faq-container">
+                <h2 className="section-title">FAQ</h2>
+                <div className="faq-container">
+                    <FaqItem
+                        question="How to cancel or reschedule a recording?"
+                        answer="You can cancel or reschedule your appointment in your personal account no later than 24 hours before the appointment. If there are less than 24 hours left, please contact the clinic directly."
+                    />
+                </div>
+            </div>
+          </section>
 
             <section className="testimonials-section">
                 <div className="page-container">
