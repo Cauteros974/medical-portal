@@ -128,6 +128,14 @@ const HomePage = () => {
                         question="How to cancel or reschedule a recording?"
                         answer="You can cancel or reschedule your appointment in your personal account no later than 24 hours before the appointment. If there are less than 24 hours left, please contact the clinic directly."
                     />
+                    <FaqItem 
+                        question="Is using the portal free?"
+                        answer="Yes, using our portal to search for doctors and make appointments is completely free for patients. You only pay the cost of the consultation directly at the clinic."
+                    />
+                    <FaqItem 
+                        question="How to leave a review about a doctor?"
+                        answer="The opportunity to leave a review will appear in your personal account after your appointment. We will send a reminder to your email asking you to share your impressions."
+                    />
                 </div>
             </div>
           </section>
