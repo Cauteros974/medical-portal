@@ -12,34 +12,34 @@ const Neurology = () => (
             <h1 style={{ textAlign: 'center', marginBottom: '1rem' }}></h1>
             <h2>Here are five simple, benefits of getting sufficient sleep:</h2>
             <p>
-                1.Boosts Your Immune System Quality sleep helps the body produce protective 
+                1.<strong>Boosts Your Immune System</strong> Quality sleep helps the body produce protective 
                 cytokines and other substances that fight infection and inflammation, making 
                 you less likely to get sick
             </p>
 
             <h1 style={{ textAlign: 'center', marginBottom: '1rem' }}></h1>
             <p>
-                2.Maintains a Healthy Weight Sufficient sleep helps regulate hormones that control 
+                2.<strong>Maintains a Healthy Weight</strong> Sufficient sleep helps regulate hormones that control 
                 appetite, and people who sleep enough tend to consume fewer calories and have more 
                 motivation to exercise. 
             </p>
 
             <h1 style={{ textAlign: 'center', marginBottom: '1rem' }}></h1>
             <p>
-                3.Improves Mental Health and Mood Adequate sleep is vital for emotional regulation, 
+                3.<strong>Improves Mental Health and Mood</strong> Adequate sleep is vital for emotional regulation, 
                 helping to reduce stress, irritability, and mood swings, and improving your overall 
                 emotional well-being.
             </p>
 
             <h1 style={{ textAlign: 'center', marginBottom: '1rem'}}></h1>
             <p>
-                4. Enhances Cognitive Function Sleep allows your brain to process and consolidate memories, 
+                4.<strong>Enhances Cognitive Function</strong> Sleep allows your brain to process and consolidate memories, 
                 improve concentration, and boost productivity, making you more effective in work and learning. 
             </p>
 
             <h1 style={{ textAlign: 'center', marginBottom: '1rem'}}></h1>
             <p>
-                5. Reduces Risk of Chronic Diseases Getting enough sleep helps lower your risk of developing 
+                5.<strong>Reduces Risk of Chronic Diseases</strong> Getting enough sleep helps lower your risk of developing 
                 serious health problems like heart disease and type 2 diabetes by allowing the heart to rest 
                 and balancing blood sugar. 
             </p>
