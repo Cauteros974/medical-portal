@@ -106,7 +106,7 @@ const HomePage = () => {
                       <h4>Neurology</h4>
                       <h3>Sleep and health: why it's important to get enough sleep</h3>
                       <p>Learn how quality sleep affects your brain, mood, and overall well-being...</p>
-                      <a href="#">Read more...</a>
+                      <a href="/neurology">Read more...</a>
                   </div>
               </div>
                 <div className="article-card">
