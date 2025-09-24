@@ -6,6 +6,7 @@ import DoctorsPage from './pages/DoctorsPage';
 import DoctorDetailsPage from './pages/DoctorDetailsPage';
 import ProfilePage from './pages/ProfilePage';
 import AboutUs from './components/AboutUs';
+import Cardiology from './components/Cardiology';
 import './App.css';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
             <Route path="/doctors/:id" element={<DoctorDetailsPage />} />
             <Route path="/profile" element={<ProfilePage />} />
             <Route path="/about" element={<AboutUs />} />
+            <Route path="/cardiology" element={<Cardiology />} />
           </Routes>
         </main>
         <Footer />

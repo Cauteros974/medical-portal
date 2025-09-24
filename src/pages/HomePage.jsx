@@ -4,6 +4,7 @@ import DoctorsPage from '../pages/DoctorsPage';
 import { doctors } from '../data/doctors';
 import DoctorCard from '../components/DoctorCard';
 
+
 const FaqItem = ({ question, answer }) => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -96,7 +97,7 @@ const HomePage = () => {
                       <h4>Cardiology</h4>
                       <h3>How to keep your heart healthy: 5 simple tips</h3>
                       <p>Simple daily habits that will help reduce the risk of cardiovascular disease...</p>
-                      <a href="#">Read more...</a>
+                      <Link to="/cardiology">Read more..</Link>
                   </div>
               </div>
               <div className="article-card">
