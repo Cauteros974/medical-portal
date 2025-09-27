@@ -423,6 +423,13 @@
   margin: 2rem auto;
 }
 
+.form-group-birh .grgrgr{
+  width: 40%;
+  padding: 0.45rem;
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  font-size: 1rem;
+}
 
 /* --- Adaptability for new blocks --- */
 @media (max-width: 768px) {
