@@ -30,10 +30,10 @@ const Profile = ({ user, onLogOut, onPhotoUpload }) => {
                 <div className="profile-info">
                     <h2>Welcome, {user.email}</h2>
                     <p>Here you can view your upcoming appointments.</p>
-                    <div className="form-group-birh">
+                    {/* <div className="form-group-birh">
                         <p>Date of Birth</p>
                         <input {...getRootProps} className="grgrgr" />
-                    </div>
+                    </div> */}
                     <button onClick={onLogOut} style={ { marginTop: '1rem '}}>LogOut</button>
                 </div>
             </div>
